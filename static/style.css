@@ -1,0 +1,90 @@
+body {
+    background: #f7faff;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Glass-style Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.07);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.hero .text-section {
+    max-width: 550px;
+}
+
+.hero .animation {
+    max-width: 350px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero .animation {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Card Hover */
+.card {
+    border: none;
+    transition: all 0.4s ease;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00c6ff;
+    background: linear-gradient(135deg, #00c6ff, #007bff);
+    color: white;
+}
+
+/* Jumbotron Style Update */
+.jumbotron {
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Navbar Tweaks */
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+    color: #00c6ff !important;
+}
+
+/* Responsive Typography */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
