@@ -1,58 +1,69 @@
-📌 MigrantAid – Empowering Migrant Workers
-MigrantAid is a web platform built with Flask, HTML, CSS, JS, and AI/NLP libraries to support migrant workers by providing:
+# 📌 MigrantAid – Empowering Migrant Workers
 
-🎓 Upskilling courses
-📰 Latest news and policies
-🆘 Helpline chatbot
-🤝 Legal and social aid
-🌐 Website Sections
-Home – Introduction to the platform
-Courses – Free learning resources for skill-building
-News – Migrant-related policy updates and news
-Helpline – A chatbot that helps users ask questions and get quick help
-⚙️ Tech Stack
-Frontend: HTML, CSS, Bootstrap, AOS, LottieFiles
-Backend: Flask (Python)
-Database: SQLite / MySQL (optional)
+**MigrantAid** is a web platform built using **Flask**, **HTML**, **CSS**, **JS** to support and uplift migrant workers by providing:
 
-🛠️ Running the Project Locally
-Clone the repository
-CopyRun
+- 🎓 **Upskilling Courses**  
+- 📰 **Latest News and Policies**  
+- 🆘 **Helpline Chatbot**  
+- 🤝 **Legal and Social Aid**
+
+---
+
+## 🌐 Website Sections
+
+- 🏠 **Home** – Introduction to the platform  
+- 📚 **Courses** – Free learning resources for skill-building  
+- 🗞️ **News** – Updates on migrant-related policies  
+- 💬 **Helpline** – A chatbot for instant help and guidance  
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer         | Technologies Used                                      |
+|---------------|--------------------------------------------------------|
+| **Frontend**  | HTML, CSS, Bootstrap, AOS, LottieFiles                 |
+| **Backend**   | Python (Flask)                                         |
+| **Database**  | SQLite / MySQL *(optional)*                            |
+
+
+---
+
+## 🛠️ Running the Project Locally
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/MigrantAid.git
 cd MigrantAid
-Create a virtual environment (optional but recommended)
-CopyRun
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
-Install dependencies
-CopyRun
-pip install -r requirements.txt
-Run the Flask app
-CopyRun
-python app.py
-Open in browser
-Navigate to http://127.0.0.1:5000
-🚀 Deployment (To Be Done)
-You can deploy this app for free using Render:
+```
 
-Go to https://render.com
-Create an account and click "New Web Service"
-Connect your GitHub repository
-Set the Build Command:
-CopyRun
+### 2️⃣ Create Virtual Environment (Optional but Recommended)
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
-Set the Start Command:
-CopyRun
+```
+
+### 4️⃣ Run the Flask App
+```bash
 python app.py
-Set environment variable (if required):
-CopyRun
-PORT=10000
-Choose "Python" as the environment
-📁 Folder Structure
-CopyRun
+```
+
+### 5️⃣ Open in Browser  
+Navigate to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
+
+## 📁 Folder Structure
+
+```
 MigrantAid/
 ├── static/
 │   ├── css/
@@ -67,18 +78,32 @@ MigrantAid/
 ├── app.py
 ├── requirements.txt
 └── README.md
-🧠 Features
-🔹 Real-time chatbot responses (via API)
-🔹 Clean and responsive design
-🔹 Easy-to-navigate interface
-🔹 Dynamic content updates
-🤝 Contributions
-Pull requests are welcome!
-If you'd like to contribute, please fork the repository and create a pull request.
-For major changes, open an issue first to discuss what you would like to change.
+```
 
-📄 License
-This project is licensed under the MIT License.
+---
 
-✨ Author
-Developed with ❤️ by Rithika
+## 🧠 Features
+
+- 🔹 Real-time chatbot using external API  
+- 🔹 Clean and modern user interface  
+- 🔹 Dynamic and scalable project structure  
+- 🔹 Easy to navigate, mobile-friendly design  
+
+---
+
+## 🤝 Contributions
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss your ideas.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ✨ Author
+
+Developed with ❤️ by **Rithika**
